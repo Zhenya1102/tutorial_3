@@ -1,0 +1,53 @@
+/* Обнуляющий стиль */
+@import "null.css";
+/* ================================================================ */
+/* Селктор тега */
+header h1{
+	color:blue;
+}
+/* Селектор класса */
+.header{
+	color: blueviolet;
+}
+/* Селектор id */
+#nav{
+	color: darkolivegreen;
+}
+.main{
+	color: darkorange;
+}
+.block{
+	color: darkred;
+}
+span{
+	color: darkorchid;
+}
+main h3{
+	color: deeppink;
+}
+.text{
+	color: forestgreen;
+}
+/* Селектор атрибута */
+[title="woman"]{
+	color: red;
+}
+.section-four{
+	color: royalblue;
+}
+.head{
+	color: saddlebrown;
+}
+.title{
+	color: salmon;
+}
+.next-text ~ p{
+	color: springgreen;
+}
+.sleep{
+	color: tomato;
+}
+.footer{
+	color: firebrick;
+}
+
